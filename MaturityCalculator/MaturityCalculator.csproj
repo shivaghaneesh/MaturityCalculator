@@ -113,6 +113,20 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Maturity.BusinessLogic\Maturity.BusinessLogic.csproj">
+      <Project>{2a710f85-54ac-4ecb-89e8-25c66adeead3}</Project>
+      <Name>Maturity.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Maturity.Data\Maturity.Data.csproj">
+      <Project>{6e7bf3b1-edc4-48b5-afae-27f6b463009b}</Project>
+      <Name>Maturity.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Maturity.Model\Maturity.Model.csproj">
+      <Project>{cf722077-c514-4761-937a-11dadca21e9a}</Project>
+      <Name>Maturity.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
